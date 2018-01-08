@@ -25,7 +25,8 @@
         this.base.execAction('delete');
         this.base.execAction('delete');
         this.base.execAction('delete');
-        this.base.execAction('insertHorizontalRule');
+        this.base.execAction('insertHorizontalRule'); 
+        evt.preventDefault();
       }
     }
   });
